@@ -1,6 +1,8 @@
 <html>
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <title>Vue.js + Waypoints feat. GRAPEVINE</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
     <style>
       .fade_in {
         opacity: 0;
@@ -12,7 +14,7 @@
         }
 
           .fade_in.y2 {
-            transform: translateY(-100px);
+            transform: translateY(-150px);
           }
 
         .fade_in.x {
@@ -34,7 +36,7 @@
         .fade_in.blur {
           filter: blur(30px);
           opacity: 0;
-          transition: all 1.2s ease-in-out .2s;
+          transition: all 1.2s ease-in-out;
         }
 
         .fade_in.visible {
@@ -72,62 +74,6 @@
 
         .fade_in_slide.visible .iframe {
           opacity: 1;
-        }
-    </style>
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-
-      .boxes {
-        padding: 100px 0;
-      }
-
-      .box {
-        width: 100%;
-        height: 530px;
-        max-width: 600px;
-        margin: 100px auto;
-        padding: 40px 0;
-      }
-        .box .inner {
-          position: relative;
-          margin: 0 auto;
-          padding: 0 40px;
-        }
-
-        .box p {
-          text-align: center;
-          font-size: 14px;
-          font-weight: bold;
-          margin: 0 0 15px;
-        }
-
-        .box .body {
-        }
-
-        .box .iframe {
-          width: 100%;
-          height: 0;
-          max-height: 338px;
-          padding: 0 0 calc(338/600*100%);
-          position: relative;
-          background: #d0d0d0;
-        }
-
-        .box iframe {
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          left: 0;
-          top: 0;
-          bottom: 0;
-          right: 0;
-          margin: auto;
-        }
-
-        .box a {
-          color: #000;
         }
     </style>
   </head>

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.boxes {
+  padding: 100px 0;
+}
+
+.box {
+  width: 100%;
+  height: 530px;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 40px 0;
+}
+  .box .inner {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+
+  .box p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 15px;
+  }
+
+  .box .body {
+  }
+
+  .box .iframe {
+    width: 100%;
+    height: 0;
+    max-height: 338px;
+    padding: 0 0 calc(338/600*100%);
+    position: relative;
+    background: #d0d0d0;
+  }
+
+  .box iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .box a {
+    color: #000;
+  }
