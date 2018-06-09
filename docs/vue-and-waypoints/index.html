@@ -27,8 +27,19 @@
           transform: scale(1.05);
         }
 
+        .fade_in.scale2 {
+          transform: scale(.8);
+        }
+
+        .fade_in.blur {
+          filter: blur(30px);
+          opacity: 0;
+          transition: all 1.2s ease-in-out .2s;
+        }
+
         .fade_in.visible {
           opacity: 1;
+          filter: blur(0);
           transform: translateY(0);
         }
 
@@ -127,38 +138,50 @@
           <p>下から</p>
           <div class="body fade_in y">
             <div class="iframe"><iframe src="https://www.youtube.com/embed/MNy9Yb9dMGo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-          </div></div>
-        </div>
+          </div>
+        </div></div>
         <div class="box"><div class="inner">
           <p>右から</p>
           <div class="body fade_in x">
             <div class="iframe"><iframe src="https://www.youtube.com/embed/psgEKI5kwjY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-          </div></div>
-        </div>
-        <div class="box"><div class="inner">
-          <p>拡大→縮小</p>
-          <div class="body fade_in scale">
-            <div class="iframe"><iframe src="https://www.youtube.com/embed/bYsp0oY0wKI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-          </div></div>
-        </div>
-        <div class="box"><div class="inner">
-          <p>クライアントワークでよく使うやつ</p>
-          <div class="body fade_in_slide">
-            <div class="iframe"><iframe src="https://www.youtube.com/embed/MNy9Yb9dMGo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-          </div></div>
-        </div>
+          </div>
+        </div></div>
         <div class="box"><div class="inner">
           <p>上から</p>
           <div class="body fade_in y2">
-            <div class="iframe"><iframe src="https://www.youtube.com/embed/psgEKI5kwjY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-          </div></div>
-        </div>
+            <div class="iframe"><iframe src="https://www.youtube.com/embed/XbgdjKQdRXw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </div>
+        </div></div>
         <div class="box"><div class="inner">
           <p>左から</p>
           <div class="body fade_in x2">
             <div class="iframe"><iframe src="https://www.youtube.com/embed/bYsp0oY0wKI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-          </div></div>
-        </div>
+          </div>
+        </div></div>
+        <div class="box"><div class="inner">
+          <p>拡大→縮小</p>
+          <div class="body fade_in scale">
+            <div class="iframe"><iframe src="https://www.youtube.com/embed/5o_nX80LWq4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </div>
+        </div></div>
+        <div class="box"><div class="inner">
+          <p>縮小→拡大</p>
+          <div class="body fade_in scale2">
+            <div class="iframe"><iframe src="https://www.youtube.com/embed/K8KRWEZOvSE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </div>
+        </div></div>
+        <div class="box"><div class="inner">
+          <p>ぼかし</p>
+          <div class="body fade_in blur">
+            <div class="iframe"><iframe src="https://www.youtube.com/embed/nKjotEAE_vs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </div>
+        </div></div>
+        <div class="box"><div class="inner">
+          <p>クライアントワークでよく使うやつ</p>
+          <div class="body fade_in_slide">
+            <div class="iframe"><iframe src="https://www.youtube.com/embed/LIRb4OdwACg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </div>
+        </div></div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
